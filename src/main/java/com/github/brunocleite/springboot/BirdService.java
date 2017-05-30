@@ -1,6 +1,5 @@
-package com.github.brunocleite.springboot.services;
+package com.github.brunocleite.springboot;
 
-import com.github.brunocleite.springboot.model.Bird;
 import org.springframework.stereotype.Service;
 
 @Service

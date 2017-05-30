@@ -7,3 +7,6 @@ It must be a reference to be consulted whenever we need to write Spring Boot tes
 
 
 
+# References
+
+[Testing improvements on Spring Boot 1.4](https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4])

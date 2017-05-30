@@ -1,7 +1,5 @@
-package com.github.brunocleite.springboot.resources;
+package com.github.brunocleite.springboot;
 
-import com.github.brunocleite.springboot.model.Bird;
-import com.github.brunocleite.springboot.services.BirdService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

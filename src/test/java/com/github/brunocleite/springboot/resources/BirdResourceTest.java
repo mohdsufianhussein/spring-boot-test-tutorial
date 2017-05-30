@@ -1,7 +1,8 @@
 package com.github.brunocleite.springboot.resources;
 
-import com.github.brunocleite.springboot.model.Bird;
-import com.github.brunocleite.springboot.services.BirdService;
+import com.github.brunocleite.springboot.Bird;
+import com.github.brunocleite.springboot.BirdResource;
+import com.github.brunocleite.springboot.BirdService;
 import lombok.extern.log4j.Log4j2;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +16,6 @@ import org.springframework.test.web.servlet.MvcResult;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.*;
 import static org.mockito.BDDMockito.given;
 
 /**
