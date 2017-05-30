@@ -1,12 +1,15 @@
 package com.github.brunocleite.springboot;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class BirdService {
 
+    @Autowired
+    private BirdRepository birdRepository;
+
     public Bird getBird(String specie){
-        Bird birdy = new Bird(specie);
-        return birdy;
+        return birdRepository.findBirdBySpecie(specie);
     }
 }

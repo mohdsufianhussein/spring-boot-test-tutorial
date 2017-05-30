@@ -1,4 +1,4 @@
-package com.github.brunocleite.springboot.resources;
+package com.github.brunocleite.springboot;
 
 import com.github.brunocleite.springboot.Bird;
 import com.github.brunocleite.springboot.BirdResource;

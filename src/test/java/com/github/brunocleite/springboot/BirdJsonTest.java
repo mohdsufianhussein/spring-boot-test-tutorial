@@ -1,4 +1,4 @@
-package com.github.brunocleite.springboot.model;
+package com.github.brunocleite.springboot;
 
 import com.github.brunocleite.springboot.Bird;
 import org.junit.Test;
